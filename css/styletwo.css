@@ -1,0 +1,80 @@
+textarea {
+    padding: 2px 0px 0px 2px;
+}
+
+user agent stylesheet input:not([type="image" i]),
+textarea {
+    box-sizing: border-box;
+}
+
+user agent stylesheet textarea {
+    font-family: monospace;
+    border-color: rgb(169, 169, 169);
+}
+
+user agent stylesheet textarea {
+    background-color: white;
+    user-select: text;
+    flex-direction: column;
+    cursor: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-style: solid;
+    border-color: initial;
+    border-image: initial;
+    padding: 2px;
+}
+
+user agent stylesheet input,
+textarea,
+select,
+button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em 0em 0em 0em;
+    font: 13.3333px Arial;
+}
+
+#tryitLeaderboard {
+    text-align: center;
+}
+
+.me {
+    text-align: center;
+    display: inline-block;
+    margin: 2em auto;
+    width: 100%;
+    border-radius: 50%;
+    z-index: 2
+}
+
+.me a {
+    position: relative;
+    top: -30px;
+    margin: 0 2px;
+    cursor: pointer
+}
+
+.me img {
+    margin: 0 10px;
+    border-radius: 100%
+}
+
+.me svg {
+    height: 30px;
+    width: 30px
+}
+
+@media only screen and (max-device-width:450px) {
+    .me {
+        text-align: center
+    }
+}
